@@ -7,6 +7,19 @@
     <title>php test</title>
 </head>
 <body>
-    
+    <!-- Basic html -->
+    <h1>Hello World!</h1>
+</br>
+    <?php
+    // Printing to HTML using eco
+        echo 'Hello PHP!';
+        echo  '</br>';
+    ?>
+
+    <?php
+        $name = 'Sajee Rodrigo';
+        echo $name;
+    ?>
+
 </body>
 </html>
